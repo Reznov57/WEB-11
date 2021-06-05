@@ -9,6 +9,9 @@
   background-color: rgb(160, 160, 160);
   padding-left: 40px;
 }
+.block:hover {
+  background-color: rgb(39, 39, 39);
+}
 
 img {
   width: 100px;
