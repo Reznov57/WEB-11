@@ -1,0 +1,36 @@
+.one_block {
+  width: 800px;
+  height: auto;
+  background-color: rgb(202, 202, 202);
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.two_block{
+  padding-left: 42px;
+  width: 740px;
+  color: black;
+  font-size: 12px;
+}
+.bold{
+  font-weight: bold;
+}
+
+.opr {
+  width: 697px;
+  height: 20px;
+  background-color: rgb(43, 108, 124);
+  padding-left: 45px;
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.ras {
+  width: 702px;
+  height: auto;
+  background-color: rgb(57, 133, 146);
+  padding: 20px;
+}
+
