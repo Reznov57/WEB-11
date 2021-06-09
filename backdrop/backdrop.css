@@ -1,0 +1,15 @@
+.image {
+  background-image: url("359909-svetik.jpg");
+  background-attachment: fixed;
+}
+.phon {
+  width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: left;
+  background: rgba(104, 104, 104, 0.432);
+}
+.text {
+  color: seashell;
+}
