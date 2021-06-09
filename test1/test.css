@@ -1,0 +1,6 @@
+.image {
+  filter: drop-shadow(33px 16px 12px) contrast(3);
+}
+.image:hover {
+  filter: blur(1%) hue-rotate(-22deg);
+}
