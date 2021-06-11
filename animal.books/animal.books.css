@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.book {
+  width: 80px;
+}
+@keyframes show-calic {
+  from {
+    transform: rotate(-20deg) translateY(20px) translateY(100%);
+  }
+  to {
+    transform: rotate(-20deg) translateY(20px) translateY(-220px);
+  }
+}
+.calc {
+  width: 80px;
+  transform: rotate(-20deg) translateY(20px);
+  animation: show-calic 2s linear 0.5s;
+}
+.favorites {
+  width: 80px;
+  transform: rotate(-2deg);
+}
+.pallete {
+  width: 80px;
+  transform: rotate(-3deg);
+}
+.paper {
+  width: 80px;
+  transform: rotate(-15deg);
+}
+.pencil {
+  width: 80px;
+  transform: rotate(-20deg);
+}

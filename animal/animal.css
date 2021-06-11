@@ -1,0 +1,23 @@
+.block {
+  width: 300px;
+  height: 80px;
+  border: 2px solid rgb(0, 255, 34);
+  padding: 0;
+  position: relative;
+}
+@keyframes pul {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 250px;
+  }
+}
+.block_two {
+  width: 50px;
+  height: 100%;
+  background-color: rgb(0, 255, 170);
+  margin: 0;
+  animation: pul 5s linear infinite;
+  position: absolute;
+}
