@@ -1,0 +1,34 @@
+.one_textH1{
+    padding-top: 30px;
+   margin-bottom: 5px;
+}
+.one_block{
+    width: 1000px;
+    height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:rgb(231, 231, 231);
+}
+.italic{
+    font-size:15px;
+    font-style: italic;
+    margin-top: 5px;
+}
+.text_Content{
+   padding-left: 40%;
+}
+.Content{
+    background-color: rgb(201, 201, 201);
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(112, 112, 112);
+}
+.chapter a{ 
+    text-decoration: none;
+}
+.chapter a:hover{
+    border-bottom: 1px solid;
+}
+.Computerdt{
+    font-size: 13px;
+}
