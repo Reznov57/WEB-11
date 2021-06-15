@@ -22,14 +22,14 @@
   border: solid 2px;
   margin-left: 150px;
   margin-top: 150px;
-  animation: second-gi 60s linear infinite;
+  animation: second-gi 60s steps(60) infinite;
   transform-origin: 0 0px;
   border-color: rgb(14, 233, 167);
 }
 
 @keyframes second-gi {
   from {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 .min {
@@ -44,6 +44,6 @@
 }
 @keyframes min-gi {
   from {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
