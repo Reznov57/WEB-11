@@ -1,0 +1,33 @@
+
+.first_block{
+    padding: 0;
+    width: 1050px;
+    height:250px;
+    margin: 20px;
+    transition: all 0.3s;
+}
+.content_for_text{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(238, 238, 238);
+    display:inline-flex;
+    margin: 0;
+    
+    
+}
+
+.image{
+    display:inline-flex;
+    margin: 0;
+    overflow: hidden;
+}
+.first_block:hover{
+  filter: brightness(40%);
+}
+.image img {
+    transition: all 1s ease-out;
+    }
+    
+    .first_block:hover> .image img{
+    transform: scale(1.5);
+    }
