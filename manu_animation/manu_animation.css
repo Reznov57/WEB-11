@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+ol{
+    position: sticky;
+    top: 0;
+}
+.one_block{
+width:250px;
+height: 600px;
+background-color: rgb(165, 164, 164);
+
+}
+.menu{
+    padding:22px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.one_block li{
+    list-style-type: none;
+}
+.one_block li span a{
+    text-decoration: none;
+    vertical-align:45px;
+    padding-left: 20px;
+    font-size:22px;
+    color: rgb(255, 255, 255);
+}
+img {
+    width: 100px;
+  }
+
+  .base_text {
+      padding-top:50px ;
+      padding-left: 200px;
+      padding-right: 200px;
+  }
