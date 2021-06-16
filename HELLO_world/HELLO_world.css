@@ -1,23 +1,26 @@
 
 .first_block{
     padding: 0;
-    width: 1050px;
+    width: 1000px;
     height:250px;
-    margin: 20px;
+    margin: 0px;
     transition: all 0.3s;
+    display:flex;
+    
 }
 .content_for_text{
     width: 500px;
     height: 250px;
     background-color: rgb(238, 238, 238);
-    display:inline-flex;
     margin: 0;
     
-    
+}
+.car{
+   font-size: 80px;
+   padding: 80px;
 }
 
 .image{
-    display:inline-flex;
     margin: 0;
     overflow: hidden;
 }
