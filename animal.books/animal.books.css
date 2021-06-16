@@ -22,8 +22,9 @@
 }
 .book {
   width: 200px;
-  transform: rotate(-10deg) translateY(-20px);
+  transform: rotate(-10deg) translateY(1200px);
   animation: show-book 2s linear 0.5s;
+  animation-fill-mode: forwards;
 }
 @keyframes show-calic {
   from {
@@ -35,8 +36,9 @@
 }
 .calc {
   width: 80px;
-  transform: rotate(-30deg) translateY(-20px);
+  transform: rotate(-30deg) translateY(-1200px);
   animation: show-calic 2s;
+  animation-fill-mode: forwards;
 }
 @keyframes show-pallete {
   from {
@@ -49,8 +51,9 @@
 
 .pallete {
   width: 80px;
-  transform: rotate(200deg) translateY(20px);
+  transform: rotate(200deg) translateY(1200px);
   animation: show-pallete 2s linear 1.5s;
+  animation-fill-mode: forwards;
 }
 @keyframes show-paper {
   from {
@@ -62,8 +65,9 @@
 }
 .paper {
   width: 200px;
-  transform: rotate(10deg) translateY(-20px);
+  transform: rotate(10deg) translateY(-1200px);
   animation: show-paper 2s linear 1s;
+  animation-fill-mode: forwards;
 }
 @keyframes show-pencil {
   from {
@@ -75,6 +79,7 @@
 }
 .pencil {
   width: 80px;
-  transform: rotate(90deg) translateX(50px);
+  transform: rotate(90deg) translateX(1500px);
   animation: show-pencil 2s linear 2s;
+  animation-fill-mode: forwards;
 }
