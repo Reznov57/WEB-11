@@ -2,4 +2,63 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style-type: none
 }
+.bod{
+  width:800px ;
+  margin: 50px;
+}
+.ol_nav {
+  margin-top: 20px;
+  width: 800px;
+  margin-left: 50px;
+  display:flex;
+  background-color: cadetblue;
+}
+.ol_nav li{
+  
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+  display:flex;
+  top:0;
+  position: relative;
+}
+.ol_nav li a{
+  color: aliceblue;
+  display: block;
+  text-decoration: none;
+ 
+}
+.ol_lom{
+  top:100%;
+  left: 0;
+  visibility: hidden;
+  position: absolute;
+  background-color: rgb(179, 179, 235);
+  
+}
+.ol_nav li:hover{
+  background-color: rgb(144, 141, 146);
+}
+.ol_nav li:hover> .ol_lom  {
+  visibility: visible;
+  
+  
+} 
+.ol_lom li{
+  position: relative;
+}
+.ol_fuck2{
+  top:0%;
+  left:100%;
+  position: absolute;
+  visibility: hidden;
+  background-color: brown;
+}
+.ol_lom li:hover> .ol_fuck2   {
+  visibility: visible;
+  
+} 
