@@ -8,7 +8,7 @@
 width: 100%;
 word-wrap:break-word;
 display: flex;
-background-color: rgba(230, 162, 36, 0.795);
+background-color: rgba(230, 162, 36, 0.815);
 padding-left:400px;
 position: fixed;
 
@@ -73,7 +73,7 @@ hr{
    text-align: justify;
    
 }
-.two_block{
+.two_block {
     width:250px;
     height: 400px;
     padding-left: 25px;
@@ -84,8 +84,15 @@ hr{
     right: 200px;
     z-index: -1;
 }
-.two_block p span{
+.two_block dl dd{
+    display:inline-flex;
+    
+}
+.two_block dl dt{
+    width: 100px;
     font-weight: bold;
     padding-left: 5px;
+    display:inline-flex;
+    text-align: justify;
 
 }
