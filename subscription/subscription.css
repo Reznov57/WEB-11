@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.table_one {
+  width: 900px;
+  height: 500px;
+  border-spacing: 0px;
+}
+.thead_one tr th {
+  border: 1px solid rgb(0, 0, 0);
+}
+.thead_one .dolor {
+  font-size: 33px;
+}
+.tbody_one tr td {
+  border: 1px solid rgb(0, 0, 0);
+}
+.thead_one tr:first-child {
+  height: 111px;
+  border: 1px solid rgb(0, 0, 0);
+}
