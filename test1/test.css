@@ -1,6 +1,25 @@
-.image {
-  filter: drop-shadow(33px 16px 12px) contrast(3);
+html {
+  height: 100%;
 }
-.image:hover {
-  filter: blur(1%) hue-rotate(-22deg);
+body {
+  margin: 0;
+  height: 100%;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.header {
+  background-color: red;
+  padding: 24px;
+}
+.main {
+  background-color: rgb(216, 173, 173);
+  padding: 24px;
+  flex-grow: 1;
+}
+.footer {
+  background-color: blueviolet;
+  padding: 24px;
 }
