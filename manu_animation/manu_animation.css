@@ -30,18 +30,18 @@
     position: fixed;
     height: 100%;
     width: 105px;
-    background-color: black;
     overflow: hidden;
-    transition: all .7s linear;
+    transition: all 1s linear ;
+  }
+  .base-blcok:hover{
+    overflow: visible;
   }
   .one_block{
   height: 100%;
   width: 405px;
   background-color: rgb(160, 160, 160);
   }
-  .base-blcok:hover{
-    overflow: visible;
-  }
+
   .base{
     display: flex;
   }

@@ -16,6 +16,7 @@
    margin-left: 22px;
    border-radius:1rem;
    box-shadow: 0 0 11px 0.1px;
+transition: all 1s ease-in ;
 }
 .block:hover{
     transform: scale(1.1)
