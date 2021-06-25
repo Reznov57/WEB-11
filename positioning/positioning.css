@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-color: rgb(37, 100, 97);
+}
+.ol_header{
+    padding-left: 0;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.ol_header li{
+    padding-left: 5px;
+    font-size: 20px;
+    color: darkgrey;
+}
+.one_block{
+    margin-left: 5%;
+    margin-top: 5%;  
+}
+.one_block h1{
+    color: rgb(235, 235, 235);
+    font-size: 60px;
+}
+.block_text_image{
+    display: flex;
+    
+}
+.block_text{
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 20px;
+}
+.block_text ol li:first-child{
+    color: rgb(167, 167, 167);
+}
