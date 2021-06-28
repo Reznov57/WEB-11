@@ -1,18 +1,41 @@
-body{
-    background-color: bisque;
+body {
+  background-color: bisque;
 }
-main{
-    flex-wrap: wrap;
-    
-
+p {
+  width: 800px;
 }
-.cat{
-    
-   margin: 12px;
-    width: 200px;
-    height:200px;
-    background-color: black;
+.base_cat {
+  padding-left: 2rem;
+  font-size: 30px;
+  margin-bottom: 1px;
 }
 .one_block {
-    display: flex;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  height: 400px;
+}
+.cat {
+  margin: 12px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.ord-box-1 {
+  order: 1;
+}
+.ord-box-2 {
+  order: 5;
+}
+.ord-box-3 {
+  order: 6;
+}
+.ord-box-4 {
+  order: 2;
+}
+.ord-box-5 {
+  order: 3;
+}
+.ord-box-6 {
+  order: 4;
 }
