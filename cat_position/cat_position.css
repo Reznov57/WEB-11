@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+main{
+    flex-wrap: wrap;
+    
+
+}
+.cat{
+    
+   margin: 12px;
+    width: 200px;
+    height:200px;
+    background-color: black;
+}
+.one_block {
+    display: flex;
+}
