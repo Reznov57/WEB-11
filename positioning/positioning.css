@@ -36,3 +36,9 @@ body{
 .block_text ol li:first-child{
     color: rgb(167, 167, 167);
 }
+@media screen and (max-width: 600px){
+    .block_text_image{
+        width: 600px;
+    }
+    
+}
