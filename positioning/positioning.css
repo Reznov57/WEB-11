@@ -29,6 +29,7 @@ body{
     
 }
 .block_text{
+    font-size: 10px;
     color: rgb(255, 255, 255);
     display: flex;
     padding-top: 20px;
@@ -37,8 +38,17 @@ body{
     color: rgb(167, 167, 167);
 }
 @media screen and (max-width: 600px){
-    .block_text_image{
-        width: 600px;
+    .block_text_image img{
+        width: 150px;
     }
-    
+    .ol_header li{
+        font-size: 50px;
+    }
+    .block_text{
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+    body{
+        min-width: 600px;
+    }
 }
