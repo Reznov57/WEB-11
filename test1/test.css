@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  display: inline-block;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+.text-container {
+  width: 60%;
+  font-size: 2vw;
+}
+
+.img-container-cats {
+  width: 30%;
+  position: absolute;
+  top: 33px;
+  right: 33px;
+  color: white;
+  text-align: right;
+}
+.cat-inscription {
+  background-color: #37516b;
+  width: 100%;
+  padding: 2% 5vh;
+  font-size: 1.5vw;
+}
+.cat1-container {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5vh;
+}
+.cat1-img-div {
+  font-size: 0;
+}
+.cat1-img {
+  width: 100%;
+}
+.cat2-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cat2-img-div {
+  font-size: 0;
+}
+.cat2-img {
+  width: 100%;
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .img-container-cats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: unset;
+    margin: 5vh 0;
+  }
+  .cat1-container {
+    width: 49%;
+  }
+  .cat2-container {
+    width: 49%;
+  }
+  .cat-inscription {
+    font-size: 2.5vw;
+  }
+  .text-container {
+    width: 100%;
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img-container-cats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: unset;
+    margin: 5vh 0;
+  }
+  .cat-inscription {
+    font-size: 5vw;
+  }
+  .text-container {
+    width: 100%;
+    font-size: 5vw;
+  }
+}
