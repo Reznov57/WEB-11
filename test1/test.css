@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 .main-container {
-  display: inline-block;
   padding: 5vh;
   display: flex;
   flex-direction: column;
