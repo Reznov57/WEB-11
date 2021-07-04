@@ -1,0 +1,40 @@
+* {
+  font-size: 30px;
+}
+.Name_text {
+  margin-bottom: 0;
+}
+.time_text {
+  color: rgb(192, 192, 192);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container img {
+  width: 100px;
+}
+.container {
+  width: 1200px;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 150px 0.4fr auto 0.4fr 150px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    'box-1 box-2 box-3 box-4 box-5'
+    'box-6 box-7 box-8 box-9 box-10'
+    'box-11 box-12 box-13 box-14 box-15'
+    'box-16 box-17 box-18 box-19 box-20'
+    'box-21 box-22 box-23 box-24 box-25'
+    'box-26 box-27 box-28 box-29 box-30';
+}
+.chat1 {
+  border-radius: 50px 50px 50px 0px;
+  padding: 22px;
+  background-color: khaki;
+}
+.chat2 {
+  border-radius: 50px 50px 0px 50px;
+  padding: 22px;
+  background-color: rgb(217, 140, 240);
+}
