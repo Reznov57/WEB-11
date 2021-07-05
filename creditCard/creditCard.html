@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="creditCard.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="base_block">
+        <div class="card_block">
+            <div class="Details_block">Credit Card Details</div>
+            <form class="form_block1">
+                <label for="Number">Number Card</label>
+                <input class='input_card' id='Number' type="text" name="NumberCard" value="1234 5678 9012 3456"
+                    autofocus maxlength="16">
+                <label for="Name">Name On Card</label>
+                <input class='input_card' id='Name' type="text" name="NameSurname" value="Name Surname">
+            </form>
+            <form class="form_block2">
+                <div class="date1">
+                    <label for="date">Expiry Date</label>
+                    <input class='date_card' id='date' type="text" name="dateCard" value="02" maxlength="2">
+                </div>
+                <div class="date1">
+                    <input class='date_card' type="text" name="dateCard" value="2021" maxlength="4">
+                </div>
+                <div class="date1">
+                    <label for="date">CVV/CVN</label>
+                    <input class='date_card' id='date' type="text" name="dateCard" value="***" maxlength="3">
+                </div>
+            </form>
+            <div class="image"><img src='moon_flag.png'></div>
+        </div>
+    </main>
+</body>
+
+</html>
