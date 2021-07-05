@@ -1,0 +1,70 @@
+.input {
+  border-radius: 20px;
+}
+.input1 {
+  color: rgb(179, 179, 179);
+  border: 1px solid rgb(179, 179, 179);
+}
+.input2 {
+  background-image: url('valid.png');
+  background-repeat: no-repeat;
+  background-position: 250px;
+  background-size: 40px;
+  color: rgb(179, 228, 147);
+  border: 2px solid rgb(179, 228, 147);
+}
+.input3 {
+  background-image: url('invalid.png');
+  background-repeat: no-repeat;
+  background-position: 250px;
+  background-size: 40px;
+  color: rgb(223, 110, 110);
+  border: 2px solid rgb(223, 110, 110);
+}
+.Subscribe {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.Subscribe input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  border: 1px solid green;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  border: 1px solid green;
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 1px;
+  bottom: 1px;
+  background-color: rgb(29, 189, 50);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider {
+  border-radius: 12px;
+}
+
+.slider:before {
+  border-radius: 30%;
+}
