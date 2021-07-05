@@ -8,13 +8,7 @@ box-sizing: border-box;
     width: 900px;
     position: relative;
 }
-.card_block{
-    margin: 50px;
-    width: 800px;
-    height: 600px;
-    background-color: rgb(112, 211, 211);
-    border-radius: 30px;
-}
+
 .Details_block{
     top: 50px;
     left: 0;
@@ -26,6 +20,14 @@ color: cornsilk;
 font-size: 33px;
 padding-left: 44px;
 padding-top: 15px;
+}
+.card_block{
+    position: relative;
+    margin: 50px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(112, 211, 211);
+    border-radius: 30px;
 }
 .form_block1{
     padding-top: 150px;
@@ -76,8 +78,9 @@ padding-top: 15px;
     text-align: left;
 }
 .image{
-    bottom: 0;
+    overflow: hidden;
     position: absolute;
-    width: 10px;
+    top:0;
+    left: 400px;
 }
 
