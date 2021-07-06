@@ -1,97 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="library.css" />
-    <link rel="stylesheet" href="library2.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <form class="form_block1">
-        <div>
-          <h2 class="header_text">Input</h2>
-          <label>
-            <input
-              class="input input1"
-              type="text"
-              name="NumberCard"
-              value="Inter some text"
-              autofocus
-              maxlength="16"
-            />
-            <input
-              class="input input2"
-              type="text"
-              name="NameSurname"
-              value="valid text"
-            />
-            <input
-              class="input input3"
-              type="text"
-              name="NameSurname"
-              value="invalid text"
-            />
-          </label>
-        </div>
-        <div>
-          <h2 class="header_text">Check boxes</h2>
-          <label class="Subscribe">
-            <input
-              class="check_boxes"
-              type="checkbox"
-              name="a"
-              value="Subscribe"
-            /><span class="slider"></span>
-          </label>
-          <label class="Subscribe switch">
-            <input
-              class="check_boxes"
-              type="checkbox"
-              name="a"
-              value="Subscribe"
-            /><span class="slider round"></span>
-          </label>
-        </div>
-        <div>
-          <h2 class="header_text">Radio buttons</h2>
-          <label class="Subscribe">
-            <span>Gender:</span
-            ><input
-              class="radio_buttons"
-              type="radio"
-              name="a"
-              value="Subscribe"
-            /><span>Male</span>
-            <input
-              class="radio_buttons"
-              type="radio"
-              name="a"
-              value="111"
-            /><span>Female</span>
-          </label>
-        </div>
-        <div>
-          <h2 class="header_text">Buttons</h2>
-          <label class="buttons">
-            <input class="buttons" type="button" name="a" value="Active" />
-            <input class="buttons" type="button" name="a" value="Hover" />
-            <input class="buttons" type="button" name="a" value="Danger" />
-            <input class="buttons" type="button" name="a" value="Hover" />
-            <input class="buttons" type="button" name="a" value="Disabled" />
-            <input class="circle" type="button" name="a" value="+" />
-            <input class="circle" type="button" name="a" value="-" />
-          </label>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="library.css" />
+  <link rel="stylesheet" href="library2.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <form class="form_block1">
+      <div>
+        <h2 class="header_text">Input</h2>
         <label>
-          <h2 class="header_text">Text area</h2>
-          <textarea class="textarea" name="auth_msg" rows="10" cols="45">
-Enter some text...</textarea
-          >
+          <input class="input input1" type="text" name="NumberCard" value="Inter some text" autofocus maxlength="16" />
+          <input class="input input2" type="text" name="NameSurname" value="valid text" />
+          <input class="input input3" type="text" name="NameSurname" value="invalid text" />
         </label>
-      </form>
-    </main>
-  </body>
+      </div>
+      <div>
+        <h2 class="header_text">Check boxes</h2>
+        <div class="wq">
+          <label class="Subscribe swich">
+            <input class="check_boxes" type="checkbox" name="a" value="Subscribe" /><span class="slider1"></span>
+          </label>
+          <span class="text_sub">Subscribe</span>
+          <label class="Subscribe swich2 ">
+            <input class="check_boxes" type="checkbox" name="a" value="Subscribe" /><span class="slider2"></span>
+          </label>
+          <span class="text_sub">Subscribe</span>
+        </div>
+      </div>
+      <div>
+        <h2 class="header_text">Radio buttons</h2>
+        <div class="wq">
+          <span class="text_sub">Gender:</span>
+          <label class="Subscribe swich3">
+            <input class="radio_buttons" type="radio" name="a" value="Subscribe" /><span class="slider3"></span>
+          </label>
+          <span class="text_sub">Male</span>
+          <label class="Subscribe swich4">
+            <input class="radio_buttons" type="radio" name="a" value="111" /><span class="slider4"></span>
+          </label>
+          <span class="text_sub">Female</span>
+        </div>
+      </div>
+      <div>
+        <h2 class="header_text">Buttons</h2>
+        <label class="buttons">
+          <input class="buttons gren_active" type="button" name="a" value="Active" />
+          <input class="buttons gren_hover" type="button" name="a" value="Hover" />
+          <input class="buttons red_danger" type="button" name="a" value="Danger" />
+          <input class="buttons red_hover" type="button" name="a" value="Hover" />
+          <input class="buttons gray_disabled" type="button" name="a" value="Disabled" />
+          <input class="circle plues" type="button" name="a" value="+" />
+          <input class="circle minus" type="button" name="a" value="-" />
+        </label>
+      </div>
+      <label>
+        <h2 class="header_text">Text area</h2>
+        <textarea class="textarea" name="auth_msg" rows="10" cols="45">
+Enter some text...</textarea>
+      </label>
+    </form>
+  </main>
+</body>
+
 </html>
