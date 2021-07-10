@@ -1,11 +1,12 @@
 .input {
   border-radius: 20px;
 }
-.input1 {
+.input1:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
   color: rgb(179, 179, 179);
   border: 1px solid rgb(179, 179, 179);
 }
-.input2 {
+.input1:valid:not(:placeholder-shown) {
   background-image: url('valid.png');
   background-repeat: no-repeat;
   background-position: 250px;
@@ -13,13 +14,22 @@
   color: rgb(179, 228, 147);
   border: 2px solid rgb(179, 228, 147);
 }
-.input3 {
+.input1:invalid:not(:placeholder-shown) {
   background-image: url('invalid.png');
   background-repeat: no-repeat;
   background-position: 250px;
   background-size: 40px;
   color: rgb(223, 110, 110);
   border: 2px solid rgb(223, 110, 110);
+}
+.form__error {
+  width: 400px;
+  margin-left: 11px;
+  color: red;
+  font-size: 22px;
+  display: block;
+  margin-top: 1px;
+  display: none;
 }
 .swich {
   position: relative;
@@ -41,7 +51,6 @@
   right: 0;
   bottom: 0;
   background-color: rgb(255, 255, 255);
-
 }
 .slider1:before {
   border: 1px solid green;
@@ -55,7 +64,7 @@
   transition: 0.4s;
 }
 
-input:checked + .slider1{
+input:checked + .slider1 {
   border: 1px solid rgb(209, 36, 59);
 }
 input:checked + .slider1:before {
@@ -106,7 +115,7 @@ input:checked + .slider1:before {
   transition: 0.4s;
 }
 
-input:checked + .slider2{
+input:checked + .slider2 {
   border: 1px solid rgb(36, 209, 59);
 }
 input:checked + .slider2:before {
@@ -114,7 +123,6 @@ input:checked + .slider2:before {
   background-color: rgb(36, 209, 59);
   transform: translateX(-26px);
 }
-
 
 .slider2 {
   border-radius: 12px;
@@ -145,7 +153,6 @@ input:checked + .slider2:before {
   right: 0;
   bottom: 0;
   background-color: rgb(255, 255, 255);
-  
 }
 
 .slider3:before {
@@ -155,10 +162,9 @@ input:checked + .slider2:before {
   height: 36px;
   width: 36px;
   right: 15%;
-  bottom:18%;
+  bottom: 18%;
   background-color: rgb(29, 189, 50);
   opacity: 0;
-  
 }
 input:checked + .slider3:before {
   opacity: 2;
@@ -192,7 +198,6 @@ input:checked + .slider3:before {
   right: 0;
   bottom: 0;
   background-color: rgb(255, 255, 255);
-  
 }
 
 .slider4:before {
@@ -202,10 +207,9 @@ input:checked + .slider3:before {
   height: 36px;
   width: 36px;
   right: 15%;
-  bottom:18%;
+  bottom: 18%;
   background-color: rgb(29, 189, 50);
   opacity: 0;
-  
 }
 input:checked + .slider4:before {
   opacity: 2;
@@ -217,33 +221,52 @@ input:checked + .slider4:before {
 .slider4:before {
   border-radius: 50%;
 }
-.buttons{
+.button {
   color: rgb(255, 254, 254);
-  border:0;
+  border: 0;
   border-radius: 8px;
 }
-.gren_active{
-  background-color: rgb(29, 189, 50);
+
+.gren_hover {
+  background-color: rgb(45, 199, 65);
 }
-.gren_hover{
+.gren_hover:hover {
   background-color: rgb(31, 139, 46);
 }
-.red_danger{
+.gren_hover:active {
+  box-shadow: inset 0 0 6px black;
+}
+.red_danger {
   background-color: rgb(230, 109, 109);
 }
-.red_hover{
-  background-color: rgb(190, 88, 88);
+.red_danger:hover {
+  background-color: rgb(173, 80, 80);
 }
-.gray_disabled{
-  background-color: rgb(179, 179, 179);
+.red_danger:active {
+  box-shadow: inset 0 0 6px black;
 }
-.plues{
-  border:0;
+.gray_disabled {
+  background-color: rgb(180, 180, 180);
+}
+.plues {
+  border: 0;
   border-radius: 50%;
   background-color: rgb(29, 189, 50);
 }
-.minus{
-  border:0;
+.plues:hover {
+  background-color: rgb(31, 139, 46);
+}
+.plues:active {
+  box-shadow: inset 0 0 6px black;
+}
+.minus {
+  border: 0;
   border-radius: 50%;
   background-color: rgb(230, 109, 109);
+}
+.minus:hover {
+  background-color: rgb(187, 89, 89);
+}
+.minus:active {
+  box-shadow: inset 0 0 6px black;
 }
