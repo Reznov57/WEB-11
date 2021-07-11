@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  width: 800px;
+  height: 300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'name one one one one two two two two'
+    'name thee thee thee thee thee thee thee thee'
+    'name g g h h f f f f'
+    'name b b b b b b b b'
+    'name n n n n n n n n';
+}
+body {
+  background-image: url('1612772930_170-p-goluboi-fon-dlya-instagram-215.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_block {
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(12, 10, 10);
+  box-shadow: -3px 0px 18px 10px rgba(0, 0, 0, 0.72);
+  color: rgb(252, 252, 252);
+  width: 900px;
+  padding: 42px;
+  margin: auto;
+  margin-top: 100px;
+}
+.h1_text {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.pleas_text {
+  text-shadow: -3px 0px 18px 10px rgba(0, 0, 0, 0.72);
+  padding-bottom: 22px;
+}
+.name1 {
+  width: 300px;
+  height: 40px;
+  color: rgb(206, 206, 206);
+}
+.name2 {
+  width: 625px;
+  height: 40px;
+  color: rgb(206, 206, 206);
+}
+.name3 {
+  width: 300px;
+  height: 40px;
+  color: rgb(206, 206, 206);
+}
+.name4 {
+  width: 140px;
+  height: 40px;
+  color: rgb(206, 206, 206);
+}
+.name5 {
+  width: 140px;
+  height: 40px;
+  color: rgb(206, 206, 206);
+}
+.other {
+  width: 625px;
+  height: 40px;
+}
+.texta {
+  width: 625px;
+  height: 100px;
+}
+.name {
+  width: 150px;
+}
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.thee {
+  grid-area: thee;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.b {
+  grid-area: b;
+}
+
+.n {
+  grid-area: n;
+}
+hr {
+  width: 800px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.base_block_bitton {
+  width: 775px;
+}
+.block_button {
+  display: flex;
+  justify-content: flex-end;
+}
+.block_button input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.button_sumbit {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 257px;
+  padding-right: 257px;
+  border: 1px solid black;
+}
+.button_sumbit:hover {
+  box-shadow: -3px 0px 18px 10px rgba(243, 243, 243, 0.72);
+}
+.button_sumbit:active {
+  box-shadow: -3px 0px 18px 10px rgba(0, 0, 0, 0.72);
+}
