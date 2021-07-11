@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  color: antiquewhite;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(59, 89, 146);
+  padding: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.text_Home p {
+  color: aliceblue;
+}
+.text_Home {
+  padding-top: 12px;
+  display: flex;
+}
+.main_block {
+  margin: auto;
+  width: 1250px;
+  height: 1000px;
+}
+.block_radio input {
+  margin-top: 12px;
+  width: 15px;
+  height: 15px;
+}
+.block_radio input:last-child {
+  margin-left: 22px;
+}
+.block_FromTo {
+  position: relative;
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+.block_FromTo input,
+select {
+  color: rgb(160, 160, 160);
+  width: 200px;
+  height: 40px;
+  padding-left: 8px;
+  border-radius: 11px;
+  border: 1px solid rgb(218, 216, 216);
+}
+.block_FromTo input:last-child {
+  background-color: rgb(59, 89, 146);
+  color: aliceblue;
+  border: 1px solid rgb(27, 33, 43);
+}
+.block_FromTo input:last-child:active {
+  background-color: rgb(59, 89, 146);
+  color: aliceblue;
+  border-top: 3px solid rgb(24, 18, 18);
+}
+.block_Filter {
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 5px;
+  padding-left: 22px;
+  padding-top: 22px;
+  margin-top: 22px;
+  width: 300px;
+  height: 700px;
+}
+.block_Filter h2 {
+  padding-bottom: 22px;
+}
+.checboxes {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.checboxes label {
+  padding-top: 3px;
+}
+.checboxes label span {
+  padding-left: 5px;
+}
+.block_Filter h3 {
+  padding-top: 22px;
+}
+h3 {
+  color: rgb(59, 89, 146);
+}
+.max_min {
+  margin-top: 12px;
+  width: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.3fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'min . . max .'
+    'min-text min-text \- max-text max-text';
+}
+
+.\- {
+  font-size: 22px;
+  grid-area: \-;
+}
+
+.min {
+  grid-area: min;
+}
+
+.max {
+  grid-area: max;
+}
+
+.min-text {
+  grid-area: min-text;
+}
+
+.max-text {
+  grid-area: max-text;
+}
+.min-text input {
+  border-radius: 4px;
+  width: 70px;
+  height: 30px;
+  border: 1px solid rgb(160, 160, 160);
+}
+.max-text input {
+  border-radius: 4px;
+  width: 70px;
+  height: 30px;
+  border: 1px solid rgb(160, 160, 160);
+}
+.Arlines {
+  display: flex;
+  flex-direction: column;
+}
+.Arlines h3 {
+  padding-bottom: 12px;
+}
+.Arlines label {
+  padding-top: 3px;
+}
+.Arlines label span {
+  padding-left: 5px;
+}
+.Dehly-to {
+  text-align: center;
+  margin-top: 22px;
+  border: 1px solid rgb(160, 160, 160);
+  width: 920px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey'
+    'Arliness Departure Duration Arrival Price none'
+    'IndiGo time hour timeto money book'
+    'IndiGo2 time2 hour2 timeto2 money2 book2'
+    'IndiGo3 time3 hour3 timeto3 mone3 book3'
+    'IndiGo4 time4 hour4 timeto4 money4 book4'
+    'IndiGo5 time5 hour5 timeto5 money5 book5'
+    'IndiGo6 time6 hour6 timeto6 money6 book6';
+}
+.Dehly-to div .alone_text {
+  color: rgb(59, 89, 146);
+  font-size: 18px;
+  font-weight: bold;
+}
+.Dehly-to div .alone_text_two {
+  color: rgb(59, 89, 146);
+  font-size: 15px;
+}
+.Dehly-to div .dehly_text {
+  font-size: 32px;
+}
+.Dehly-to div {
+  padding-top: 22px;
+}
+.Dehly-to div span {
+  font-size: 23px;
+}
+.Dehly-to div input {
+  background-color: rgb(59, 89, 146);
+  color: aliceblue;
+  border-radius: 5px;
+}
+.Dehly-to div span:nth-child(2) {
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+}
+
+.Dehly-to-Syndey {
+  grid-area: Dehly-to-Syndey;
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.Arliness {
+  grid-area: Arliness;
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.Departure {
+  grid-area: Departure;
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.Duration {
+  grid-area: Duration;
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.Arrival {
+  grid-area: Arrival;
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.Price {
+  grid-area: Price;
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.none {
+  grid-area: none;
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.IndiGo {
+  grid-area: IndiGo;
+}
+
+.time {
+  grid-area: time;
+}
+
+.time2 {
+  grid-area: time2;
+}
+
+.time3 {
+  grid-area: time3;
+}
+
+.time4 {
+  grid-area: time4;
+}
+
+.time5 {
+  grid-area: time5;
+}
+
+.time6 {
+  grid-area: time6;
+}
+
+.IndiGo2 {
+  grid-area: IndiGo2;
+}
+
+.IndiGo3 {
+  grid-area: IndiGo3;
+}
+
+.IndiGo4 {
+  grid-area: IndiGo4;
+}
+
+.IndiGo5 {
+  grid-area: IndiGo5;
+}
+
+.IndiGo6 {
+  grid-area: IndiGo6;
+}
+
+.hour {
+  grid-area: hour;
+}
+
+.hour2 {
+  grid-area: hour2;
+}
+
+.hour3 {
+  grid-area: hour3;
+}
+
+.hour4 {
+  grid-area: hour4;
+}
+
+.hour5 {
+  grid-area: hour5;
+}
+
+.hour6 {
+  grid-area: hour6;
+}
+
+.timeto {
+  grid-area: timeto;
+}
+
+.timeto2 {
+  grid-area: timeto2;
+}
+
+.timeto3 {
+  grid-area: timeto3;
+}
+
+.timeto4 {
+  grid-area: timeto4;
+}
+
+.timeto5 {
+  grid-area: timeto5;
+}
+
+.timeto6 {
+  grid-area: timeto6;
+}
+
+.money {
+  grid-area: money;
+}
+
+.money2 {
+  grid-area: money2;
+}
+
+.mone3 {
+  grid-area: mone3;
+}
+
+.money4 {
+  grid-area: money4;
+}
+
+.money5 {
+  grid-area: money5;
+}
+
+.money6 {
+  grid-area: money6;
+}
+
+.book {
+  grid-area: book;
+}
+
+.book2 {
+  grid-area: book2;
+}
+
+.book3 {
+  grid-area: book3;
+}
+
+.book4 {
+  grid-area: book4;
+}
+
+.book5 {
+  grid-area: book5;
+}
+
+.book6 {
+  grid-area: book6;
+}
+.grid_block {
+  display: flex;
+  justify-content: space-between;
+}
+.colum_text {
+  display: flex;
+  flex-direction: column;
+}
+.book input {
+  width: 130px;
+  height: 40px;
+}

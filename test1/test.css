@@ -1,0 +1,189 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey Dehly-to-Syndey'
+    'Arlines Departure Duration Arrival Price none'
+    'IndiGo time hour timeto money book'
+    'IndiGo2 time2 hour2 timeto2 money2 book2'
+    'IndiGo3 time3 hour3 timeto3 mone3 book3'
+    'IndiGo4 time4 hour4 timeto4 money4 book4'
+    'IndiGo5 time5 hour5 timeto5 money5 book5'
+    'IndiGo6 time6 hour6 timeto6 money6 book6';
+}
+
+.Dehly-to-Syndey {
+  grid-area: Dehly-to-Syndey;
+}
+
+.Arlines {
+  grid-area: Arlines;
+}
+
+.Departure {
+  grid-area: Departure;
+}
+
+.Duration {
+  grid-area: Duration;
+}
+
+.Arrival {
+  grid-area: Arrival;
+}
+
+.Price {
+  grid-area: Price;
+}
+
+.none {
+  grid-area: none;
+}
+
+.IndiGo {
+  grid-area: IndiGo;
+}
+
+.time {
+  grid-area: time;
+}
+
+.time2 {
+  grid-area: time2;
+}
+
+.time3 {
+  grid-area: time3;
+}
+
+.time4 {
+  grid-area: time4;
+}
+
+.time5 {
+  grid-area: time5;
+}
+
+.time6 {
+  grid-area: time6;
+}
+
+.IndiGo2 {
+  grid-area: IndiGo2;
+}
+
+.IndiGo3 {
+  grid-area: IndiGo3;
+}
+
+.IndiGo4 {
+  grid-area: IndiGo4;
+}
+
+.IndiGo5 {
+  grid-area: IndiGo5;
+}
+
+.IndiGo6 {
+  grid-area: IndiGo6;
+}
+
+.hour {
+  grid-area: hour;
+}
+
+.hour2 {
+  grid-area: hour2;
+}
+
+.hour3 {
+  grid-area: hour3;
+}
+
+.hour4 {
+  grid-area: hour4;
+}
+
+.hour5 {
+  grid-area: hour5;
+}
+
+.hour6 {
+  grid-area: hour6;
+}
+
+.timeto {
+  grid-area: timeto;
+}
+
+.timeto2 {
+  grid-area: timeto2;
+}
+
+.timeto3 {
+  grid-area: timeto3;
+}
+
+.timeto4 {
+  grid-area: timeto4;
+}
+
+.timeto5 {
+  grid-area: timeto5;
+}
+
+.timeto6 {
+  grid-area: timeto6;
+}
+
+.money {
+  grid-area: money;
+}
+
+.money2 {
+  grid-area: money2;
+}
+
+.mone3 {
+  grid-area: mone3;
+}
+
+.money4 {
+  grid-area: money4;
+}
+
+.money5 {
+  grid-area: money5;
+}
+
+.money6 {
+  grid-area: money6;
+}
+
+.book {
+  grid-area: book;
+}
+
+.book2 {
+  grid-area: book2;
+}
+
+.book3 {
+  grid-area: book3;
+}
+
+.book4 {
+  grid-area: book4;
+}
+
+.book5 {
+  grid-area: book5;
+}
+
+.book6 {
+  grid-area: book6;
+}
