@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav
+      class="px-4 navbar navbar-expand navbar-dark"
+      style="background-color: rgb(96, 162, 201)"
+      aria-label="Second navbar example"
+    >
+      <div class="container-fluid">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          fill="currentColor"
+          class="bi bi-twitch"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"
+          />
+          <path
+            d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"
+          />
+        </svg>
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="http://127.0.0.1:5500/bootstrap/bootstrap.html#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://127.0.0.1:5500/bootstrap/bootstrap2.html#"
+                >Homework</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="http://127.0.0.1:5500/bootstrap/bootstrap3.html"
+                >Setting</a
+              >
+            </li>
+          </ul>
+          <img src="av_64.png" alt="" />
+        </div>
+      </div>
+    </nav>
+    <main class="px-5">
+      <p class="h2 d-flex justify-content-center pt-4 p-2 display-5">Setting</p>
+      <div
+        class="d-flex justify-content-center p-2 rounded pt-3"
+        style="background-color: rgb(156, 216, 255)"
+      >
+        <p class="h5 col-3">Avatar</p>
+        <p class="h5 col-5">Students Info</p>
+        <p class="h5 col-3">Change Password</p>
+      </div>
+      <div class="d-flex">
+        <div class="d-flex flex-column col-2">
+          <img
+            src="av_256.png"
+            class="img-fluid rounded-start d-flex justify-content-center"
+            alt="..."
+          />
+          <button
+            type="button"
+            class="btn btn-secondary btn-lg btn-block mt-3 w-100"
+          >
+            Shoose photo
+          </button>
+        </div>
+        <div class="d-flex flex-column col-5 pt-3">
+          <form class="form-row px-4">
+            <div class="col pb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="col pb-3">
+              <input type="text" class="form-control" placeholder="Last Name" />
+            </div>
+            <div class="col pb-3">
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="col pb-3">
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Phone number"
+              />
+            </div>
+            <div class="col pb-3">
+              <input type="text" class="form-control" placeholder="Addres" />
+            </div>
+            <div class="col pb-3">
+              <input type="text" class="form-control" placeholder="FB Link" />
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary btn-lg btn-block w-100"
+            >
+              Save changes
+            </button>
+          </form>
+        </div>
+        <div class="d-flex flex-column col-5 pt-3">
+          <form class="form-row px-4">
+            <div class="col pb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Old password"
+              />
+            </div>
+            <div class="col pb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="New password"
+              />
+            </div>
+            <div class="col pb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Repeat password"
+              />
+            </div>
+
+            <button
+              type="button"
+              class="btn btn-secondary btn-lg btn-block w-100"
+            >
+              Changes password
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
