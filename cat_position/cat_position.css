@@ -1,86 +1,92 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.base_block {
+  background-color: whitesmoke;
+  margin-left: 3%;
 }
-.main-container {
-  padding: 5vh;
+.h1_cat {
+  padding-top: 12px;
+  padding-left: 2%;
+  font-size: 52px;
 }
-.text-container {
+.cat_block {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(60, 105, 146);
+  border-radius: 12px;
+}
+.cat_block2 {
+  width: 400px;
+  height: 350px;
+  background-color: rgb(60, 105, 146);
+  border-radius: 12px;
+}
+img {
+  border-radius: 12px 12px 0 0;
+}
+.one_p {
+  margin-left: 2%;
   width: 60%;
-  font-size: 2vw;
+  font-size: 32px;
 }
-
-.img-container-cats {
-  width: 30%;
-  position: absolute;
-  top: 33px;
-  right: 33px;
+.text_cat1 {
+  font-size: 20px;
   color: white;
+  padding-left: 33%;
+}
+.text_cat2 {
+  font-size: 20px;
+  color: white;
+  padding-left: 8%;
+  padding-right: 11px;
   text-align: right;
+  margin-top: 8px;
 }
-.cat-inscription {
-  background-color: #37516b;
-  width: 100%;
-  padding: 2% 5vh;
-  font-size: 1.5vw;
+.cats-block {
+  position: absolute;
+  top: 43px;
+  right: 22px;
 }
-.cat1-container {
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 5vh;
-}
-.cat-img-div {
-  font-size: 0;
-}
-.cat-img {
-  width: 100%;
-}
-.cat2-container {
-  border-radius: 10px;
-  overflow: hidden;
-}
-@media screen and (max-width: 800px) {
-  .img-container-cats {
+@media screen and (max-width: 1200px) {
+  .cats-block {
+    position: static;
+    margin-left: 2%;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: relative;
-    margin: 5vh 3vh;
   }
-  .cat1-container {
-    width: 49%;
+  .cat_block {
+    margin-right: 2%;
   }
-  .cat2-container {
-    width: 49%;
-  }
-  .cat-inscription {
-    font-size: 2.5vw;
-  }
-  .text-container {
-    width: 100%;
-    font-size: 2.5vw;
+  .one_p {
+    width: 80%;
   }
 }
-@media screen and (max-width: 600px) {
-  .img-container-cats {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: relative;
-    margin: 5vh 3vh;
+@media screen and (max-width: 900px) {
+  .cats-block {
+    position: static;
+    margin-left: 2%;
+    display: inline-block;
   }
-  .cat-inscription {
-    font-size: 5vw;
+  .cat_block {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(60, 105, 146);
+    border-radius: 12px;
   }
-  .cat1-container {
-    width: 100%;
+  .cat_block2 {
+    width: 600px;
+    height: 550px;
+    background-color: rgb(60, 105, 146);
+    border-radius: 12px;
   }
-  .cat2-container {
-    width: 100%;
+  .text_cat1 {
+    font-size: 35px;
+    color: white;
+    padding-left: 25%;
   }
-  .text-container {
-    width: 100%;
-    font-size: 5vw;
+  .text_cat2 {
+    font-size: 35px;
+    color: white;
+    padding-left: 8%;
+    padding-right: 11px;
+    text-align: right;
+    margin-top: 8px;
   }
 }
