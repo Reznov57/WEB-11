@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -85,4 +86,24 @@
     width: 100%;
     font-size: 5vw;
   }
+=======
+.d23 {
+  height: 55px;
+  width: 100px;
+  margin: 35px 20px 0 0;
+  background: #b1ba5c;
+  position: relative;
+  box-shadow: 1px 1px 0px 7px rgba(34, 60, 80, 0.2);
+}
+.d23:before {
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: -35px;
+  border-bottom: 35px solid #b1ba5c;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+>>>>>>> html-homework-9
 }
