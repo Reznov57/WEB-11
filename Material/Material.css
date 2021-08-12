@@ -1,0 +1,144 @@
+.base_block {
+  padding-left: 5%;
+}
+.flow-text {
+  margin: 0;
+}
+.small-text {
+  margin: 0;
+}
+.avatat_block {
+  display: flex;
+}
+.text-title {
+  width: 111px;
+  margin: 0;
+}
+.text_avatar {
+  margin-left: 12px;
+}
+.block_friend {
+  margin-top: -92px;
+  margin-left: -3.5%;
+  margin-right: 11px;
+  width: 14%;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: black 1px;
+  box-shadow: 4px 4px 2px 0px rgba(34, 60, 80, 0.2);
+}
+.flex_avatar {
+  display: flex;
+}
+.text_friend {
+  font-size: 22px;
+}
+.avatar_fiend {
+  width: 80px;
+  text-align: center;
+}
+.avatar_fiend p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card-title {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+.text_track {
+  display: flex;
+}
+.text_track:nth-child(n + 2) {
+  padding-left: 12px;
+}
+.data_blocks {
+  display: flex;
+  color: rgb(160, 160, 160);
+  margin-bottom: 9px;
+}
+.card-action {
+  text-align: right;
+  color: blue;
+}
+.text_h1 {
+  font-size: 32px;
+  margin: 0;
+}
+.h1_input {
+  padding-left: 22px;
+  padding-top: 22px;
+  height: 100px;
+  margin-right: 27%;
+  display: flex;
+  justify-content: space-between;
+}
+.input_plues {
+  display: flex;
+}
+.lupa {
+  font-size: 50px;
+  color: rgb(45, 45, 189);
+}
+.friends_chat {
+  display: flex;
+  margin-left: 19%;
+  margin-top: 2%;
+  width: 65%;
+  height: 685px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 2px 0px rgba(34, 60, 80, 0.2);
+}
+.list_chat {
+  width: 400px;
+  height: 700px;
+}
+.big_chat img {
+  padding: 5px 11px 11px 11px;
+  margin: 5px 22px 22px 22px;
+  width: 100px;
+}
+.time {
+  margin-left: 12px;
+  font-size: 17px;
+  color: rgb(153, 153, 153);
+}
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 7px;
+}
+.AVI_FLX {
+  display: flex;
+}
+.text_chat {
+  margin-top: 0;
+}
+.avi {
+  margin-left: 0px;
+}
+.chat_two {
+  margin-left: 44px;
+}
+.telega {
+  width: 111px;
+  color: rgb(85, 157, 250);
+}
+.title_one {
+  font-weight: bold;
+}
+.text-decor p {
+  color: rgb(85, 157, 250);
+}
+.new_mes {
+  background-color: rgb(85, 157, 250);
+  padding: 5px;
+}
+.namber_chat {
+  color: aliceblue;
+}
+.chat_hov li:hover {
+  background-color: rgb(73, 167, 255);
+}
