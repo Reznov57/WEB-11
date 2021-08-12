@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main_block{
+    box-shadow: 0 0 30px 4px rgb(146, 146, 146);
+    min-width: 700px;
+    max-width: 2000px;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 50%;
+    height: auto;
+    background-color: rgb(236, 236, 236);
+}
+.one_input{
+    padding-top: 20px;
+}
+.Registration_h2{
+    margin-left: 120px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 32px;
+}
+.name{
+    font-size: 22px;
+    background-color: rgb(236, 236, 236);
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 12px;
+    padding-left: 12px;
+    width: 70%;
+    height: 50px;
+    display: block;
+}
+.image{
+    margin-top: 32px;
+    margin-left: 130px;/* если что, вернуть в процентное состояние */
+    display: flex;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+.confirm{
+    margin-left: 13%;
+}
+.chek_block{
+    padding-left: 150px;
+    margin-top: 22px;
+    padding-bottom: 40px;
+}
+.chek{
+    padding-top: 12;
+    font-size: 22px;
+    display: block
+}
+.chek input{
+    background-color: teal;
+    width: 20px;
+    height: 20px;
+}
+.button{
+margin-left: 60%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    width: 200px;
+    height: 50px;
+   
+    border-radius: 8px;
+    color: rgb(230, 230, 230);
+    background-color: rgb(87, 177, 180);
+    font-size: 22px;
+    box-shadow: 5px 5px 8px 0.8px rgb(134, 134, 134);
+}
+
+
+@media screen and (min-width: 1600px) and (min-width: 1200px){
+    
+    
+    .three_input{
+        width: 100%;
+    display: flex;
+    align-content: space-between;
+    margin-left: 0;
+    }
+    .confirm{
+        margin-left: 0;   
+    }
+    .image2{
+        margin-left: 0;
+        width: 42%;
+    }
+    .image1{
+        width: 39%;
+    }
+    .registration{
+        width: 65%;
+        margin-left: 190px;
+    }
+    .for_input{
+        display: flex;
+        width: 100%;
+    }
+    .five_input{
+        display: flex;
+        width: 100%;
+    }
+    .imageone{
+        margin-left: 0;
+        width: 90%;
+    }
+    .imagetwo{
+        margin-left: 0;
+        width: 90%;
+    }
+    .imagethree{
+        margin-left: 0;
+        width: 80%;
+
+    }
+    .imagefor{
+        margin-left: 0;
+        width: 80%;
+        
+    }
+    .imageregistr{
+        margin-left: 0;
+        width: 90%;
+    }
+    .one_input2{
+        margin-left: 100px;
+    }
+    .chek_block{
+        padding-left: 190px;
+        
+    }
+    .button{
+        margin-left: 65%;
+           
+        }
+    
+    
+}
+@media screen and (min-width: 3000px)  {
+    
+    .block_form{
+        display: flex;
+    }
+    
+    .confirm{
+        margin-left: 0;   
+    }
+    .image2{
+        margin-left: 0;
+        width: 42%;
+    }
+    .image1{
+        width: 39%;
+    }
+    .registration{
+        width: 85%;
+        margin-left: 0;
+    }
+    .for_input{
+        display: flex;
+        width: 100%;
+    }
+    .five_input{
+        display: flex;
+        width: 100%;
+    }
+    .imageone{
+        margin-top: 8px;
+        margin-left: 0;
+        width: 90%;
+    }
+    .imagetwo{
+        margin-top: 8px;
+        margin-left: 0;
+        width: 90%;
+    }
+    .imagethree{
+        
+        margin-left: 0;
+        width: 90%;
+
+    }
+    .imagefor{
+        margin-left: 0;
+        width: 90%;
+        
+    }
+    .imageregistr{
+        margin-left: 0;
+        width: 90%;
+    }
+    .one_input2{
+        margin-left: 100px;
+    }
+    .chek_block{
+        padding-left: 230px;
+        
+    }
+    .button{
+        margin-left: 70%;
+           
+        }
+    
+}

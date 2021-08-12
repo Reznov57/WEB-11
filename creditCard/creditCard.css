@@ -1,0 +1,85 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.base_block{
+    margin-left: 100px;
+    width: 900px;
+    position: relative;
+}
+
+.Details_block{
+    top: 50px;
+    left: 0;
+position: absolute;
+width: 600px;
+height: 70px;
+background-color: rgb(241, 145, 80);
+color: cornsilk;
+font-size: 33px;
+padding-left: 44px;
+padding-top: 15px;
+}
+.card_block{
+    display: flex;
+    overflow: hidden;
+    margin: 50px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(112, 211, 211);
+    border-radius: 30px;
+}
+.form_block1{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.input_card{
+    padding: 6px 0 4px 10px;
+    list-style: none;
+    width: 400px;
+    height: 50px;
+    font-size: 28px;
+    border: 0;
+    border-bottom: 2px  solid rgb(49, 107, 94);
+    background-color: rgb(142, 233, 233);
+    color: cadetblue;
+}
+.form_block1 label { 
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(63, 119, 119);
+    padding-bottom: 12px;
+    padding-top: 19px;
+    }
+.form_block2{
+    width: 450px;
+    align-items:flex-end;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: rgb(63, 119, 119);
+    
+}    
+.date_card{
+    padding: 6px 0 4px 10px;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 28px;
+    border: 0;
+    border-bottom: 2px  solid rgb(49, 107, 94);
+    background-color: rgb(142, 233, 233);
+    color: cadetblue;
+}
+.date1 label{
+    display: block;
+    text-align: left;
+}
+img{
+   margin-top: 211px;
+}
+

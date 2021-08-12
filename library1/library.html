@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="library.css" />
+    <link rel="stylesheet" href="library2.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main>
+      <form class="form_block1">
+        <div>
+          <h2 class="header_text">Input</h2>
+          <div>
+            <input
+              class="input input1"
+              type="password"
+              name="NumberCard"
+              pattern="[A-Za-z]{6,}"
+              autofocus
+              required
+              placeholder="Text"
+            />
+            <div class="form__error">Только латинские символы и не менее 6</div>
+          </div>
+        </div>
+        <div>
+          <h2 class="header_text">Check boxes</h2>
+          <div class="wq">
+            <label class="Subscribe swich">
+              <input
+                class="check_boxes"
+                type="checkbox"
+                name="a"
+                value="Subscribe"
+              /><span class="slider1"></span>
+            </label>
+            <span class="text_sub">Subscribe</span>
+          </div>
+        </div>
+        <div>
+          <h2 class="header_text">Radio buttons</h2>
+          <div class="wq">
+            <span class="text_sub">Gender:</span>
+            <label class="Subscribe swich3">
+              <input
+                class="radio_buttons"
+                type="radio"
+                name="a"
+                value="Subscribe"
+              /><span class="slider3"></span>
+            </label>
+            <span class="text_sub">Male</span>
+            <label class="Subscribe swich4">
+              <input
+                class="radio_buttons"
+                type="radio"
+                name="a"
+                value="111"
+              /><span class="slider4"></span>
+            </label>
+            <span class="text_sub">Female</span>
+          </div>
+        </div>
+        <div>
+          <h2 class="header_text">Buttons</h2>
+          <div class="buttons">
+            <input
+              class="button gren_hover"
+              type="button"
+              name="a"
+              value="Hover"
+            />
+            <input
+              class="button red_danger"
+              type="button"
+              name="a"
+              value="Danger"
+            />
+            <input
+              class="button gray_disabled"
+              type="button"
+              name="a"
+              value="Disabled"
+              disabled
+            />
+            <input class="circle plues" type="button" name="a" value="+" />
+            <input class="circle minus" type="button" name="a" value="-" />
+          </div>
+        </div>
+        <label>
+          <h2 class="header_text">Text area</h2>
+          <textarea class="textarea" name="auth_msg" rows="10" cols="45">
+Enter some text...</textarea
+          >
+        </label>
+      </form>
+    </main>
+  </body>
+</html>
